@@ -5,7 +5,7 @@ How to install
 ```
 sudo mkdir /usr/share/plymouth/themes/cardano
 clear
-sudo rsync -aq --exclude=install-circle * /usr/share/plymouth/themes/cardano
+sudo rsync -aq --exclude=README.md * /usr/share/plymouth/themes/cardano
 clear
 sudo update-alternatives --install /usr/share/plymouth/themes/default.plymouth default.plymouth /usr/share/plymouth/themes/cardano/cardano.plymouth 100
 sudo update-alternatives --config default.plymouth  #here, choose the number of the theme you want to use then hit enter
